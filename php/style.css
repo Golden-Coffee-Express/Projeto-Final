@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-padding-top: 4rem;
+	scroll-behavior: smooth;
+	list-style: none;
+	text-decoration: none;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+    background: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+	font-size: 120%;
+}
+
+.header {
+	width: 40%;
+	margin: 50px auto 0px;
+	color: #f1f1f1;
+	background: #18222d;
+	text-align: center;
+	border: 0.5px solid #18222d;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+
+form, .content {
+	width: 40%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #8a6f4d;
+	background: #8a6f4d;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #18222d;
+}
+
+#tipo_user {
+	height: 40px;
+	width: 98%;
+	padding: 5px 10px;
+	background: #8a6f4d;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #18222d;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: #f1f1f1;
+	background: #18222d;
+	border: none;
+	border-radius: 5px;
+}
+
+.erro {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f1f1f1; 
+	border-radius: 5px; 
+	text-align: left;
+}
+
+.sucesso {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+
+.perfil_info img {
+	display: inline-block; 
+	width: 50px; 
+	height: 50px; 
+	margin: 5px;
+	float: left;
+}
+
+.perfil_info div {
+	display: inline-block; 
+	margin: 5px;
+}
+
+.perfil_info:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+

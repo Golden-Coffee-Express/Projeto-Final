@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*--------------------------------------------------------
+ # Cores Padrões -----------------------------------------
+------------------*/
+
+ :root {
+     --main-color: #18222d;
+     --second-color: #8a6f4d;
+     --text-color: #f1f1f1;
+}
+
+/*--------------------------------------------------------
+# Formatação Geral ---------------------------------------
+-----------------------*/
+
+ * {
+     font-family: 'Poppins', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scroll-padding-top: 4rem;
+     scroll-behavior: smooth;
+     list-style: none;
+     text-decoration: none;
+}
+ body {
+     margin: 0;
+     max-height: 100vh;
+     font-size: 1rem;
+     line-height: 1.25;
+}
+ section {
+     padding: 50px 100px;
+}
+ img {
+     width: 100%;
+}
+
+/*-------------------------------------------------------------- 
+# Nav-Bar -----------------------------------------------------
+---------*/
+
+ .site-nav {
+     position:fixed;
+     width: 100%;
+     top: 0;
+     z-index: 1000;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 100px;
+     background-color: #26272b;
+}
+ .nav-bar {
+     display:flex;
+}
+ .nav-bar a {
+     color: var(--text-color);
+     letter-spacing: 3px;
+     margin-left: 4vh;
+     font-size: 1rem;
+     text-transform: uppercase;
+     font-weight: bold;
+}
+ .nav-bar a:hover {
+     color: var(--second-color);
+}
+ .nav-icon {
+     z-index: 10000;
+     display: flex;
+     column-gap:0.8rem;
+}
+ .nav-icon .bx {
+     margin-left: 8vh;
+     line-height: 2;
+     color: #737373;
+}
+ .nav-icon .bx:hover {
+     color: var(--second-color);
+}
+ .logo .bx {
+     color: var(--second-color);
+}
+ .mobile-nav {
+     display: none;
+     cursor: pointer;
+}
+ .mobile-nav div {
+     width: 30px;
+     height: 2px;
+     background: #737373;
+     margin: 8px;
+     transition: 0.3s;
+}
+ @media (max-width:991px) {
+     body {
+         overflow-x: hidden;
+    }
+     .nav-bar {
+         position: absolute;
+         top: 100%;
+         left: 0;
+         width: 100%;
+         height: 38vh;
+         border-bottom-right-radius: 4vh;
+         background: #26272b;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-around;
+         transform: translateX(-100%);
+         transition: transform 0.3s;
+    }
+     .nav-bar li {
+         margin-left: 0;
+         opacity: 0;
+    }
+     .nav-bar a {
+         margin-left: 0;
+         letter-spacing: 3px;
+         font-size: 1rem;
+         text-transform: uppercase;
+    }
+     .mobile-nav {
+         display:block;
+    }
+}
+ .nav-bar.active {
+     transform: translateX(0);
+}
+ @keyframes navLinkFade {
+     from {
+         opacity: 0;
+         transform: translateX(-50px);
+    }
+     to {
+         opacity: 1;
+         transform: translateX(0);
+    }
+}
+ .mobile-nav.active .line1 {
+     transform: rotate(-45deg) translate(-8px, 8px);
+}
+ .mobile-nav.active .line2 {
+     opacity: 0;
+}
+ .mobile-nav.active .line3 {
+     transform: rotate(45deg) translate(-5px, -7px);
+}
+/*-------------------------------------------------------------- 
+# Home ---------------------------------------------------------
+-----*/
+
+ .site-home {
+     width: 100%;
+     background: url("img/bg.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(17rem,auto));
+     gap: 2rem;
+     justify-content:center;
+}
+ .site-home .box {
+     width: 45%;
+}
+ .home-text h1 {
+     padding-top: 10%;
+     font-size: 3.4rem;
+     color: var(--text-color);
+     text-transform: uppercase;
+     letter-spacing: 1px;
+}
+ .home-text p {
+     font-size: 0.938rem;
+     color: var(--second-color);
+     margin: 0.5rem 0 1.4rem;
+}
+ .btn{
+     padding: 10px 40px;
+     border-radius: 0.3rem;
+     color: var(--text-color);
+     font-weight: 600;
+     transition: 0.2s;
+}
+ .btn:hover{
+     background: var(--second-color);
+}
+ @media (max-width:991px) {
+     .site-home .box {
+         width: 100%;
+    }
+}
+
+/*-------------------------------------------------------------- 
+# Menu ---------------------------------------------------------
+-----*/
+
+ .menu-header {
+     text-align: center;
+}
+ .menu-header h2 {
+     font-size: 1.8rem;
+     text-transform: uppercase;
+}
+ .menu-container {
+     justify-content: center;
+     display: grid;
+     grid-template-columns: repeat(4, minmax(320px, 1rem));
+     gap: 2rem;
+     margin-top: 4vh;
+     margin-bottom: 4vh;
+}
+ .menu-container .box {
+     cursor: pointer;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-color:#f1f1f1;
+     border: 1px solid #f2f2f2;
+     box-shadow: 0 1px 4px rgb(0 0 0 / 5%);
+     border-radius: 4px;
+}
+ .menu-container .box:hover {
+     border-color: #737373;
+     transition: ease-in-out 0.2s;
+}
+ .menu-container img {
+     width: 100%;
+     height: 220px;
+     object-position: center;
+}
+ .menu-container .box h3 {
+     text-align: center;
+     font-size: 1rem;
+     font-weight: 600;
+     text-transform: uppercase;
+     margin: 0.5rem 0 0.5rem;
+}
+ .menu-container .box .info {
+     padding: 16px;
+     font-size: 1rem;
+     margin-bottom: 20%;
+}
+ .menu-container .box .content {
+     text-align: center;
+     padding: 16px;
+     color: #50a773;
+     font-weight: 500;
+}
+ .menu-container .box .content span {
+     padding: 0 1rem;
+     color: #50a773;
+     font-weight: 500;
+}
+ @media (max-width:991px) {
+     .menu-container {
+         display: grid;
+         grid-template-columns: repeat(2, minmax(320px, 1rem));
+         gap: 2rem;
+    }
+}
+
+/*-------------------------------------------------------------- 
+# Footer -------------------------------------------------------
+-------*/
+
+ .site-footer {
+     background-color:#26272b;
+     padding:15px 20px;
+     font-size:15px;
+     line-height:24px;
+     color:#737373;
+}
+ .site-footer h6 {
+     color:#fff;
+     font-size:16px;
+     text-transform:uppercase;
+     margin-top:5px;
+     letter-spacing:2px 
+}
+ .site-footer a {
+     color:#737373;
+}
+ .site-footer a:hover {
+     color: var(--second-color);
+     text-decoration:none;
+}
+ .footer-links {
+     padding-left:0;
+     list-style:none 
+}
+ .footer-links li {
+     display:block 
+}
+ .footer-links a {
+     color:#737373 
+}
+ .footer-links a:active,.footer-links a:focus,.footer-links a:hover {
+     text-decoration:none;
+}
+ .site-footer .social-icones {
+     text-align:right;
+     margin-right: 20px;
+}
+ .site-footer .social-icones a {
+     margin-left: 10px;
+     margin-right:0;
+     border-radius:100%;
+     background-color:#33353d 
+}
+ .site-footer .footer-bottom {
+     display: flex;
+     justify-content: space-between;
+}
+ .site-footer .social-icones a .bx {
+     line-height: 45px !important;
+}
+ .copyright-text {
+     margin:0 
+}
+ @media (max-width:991px) {
+     .site-footer [class^=col-] {
+         margin-bottom:20px 
+    }
+     .site-footer {
+         padding-bottom:5px 
+    }
+     .site-footer .copyright-text,.site-footer .social-icones {
+         text-align:center 
+    }
+     .site-footer .footer-bottom {
+         display:block;
+    }
+}
+ .social-icones {
+     padding-left:0;
+     margin-bottom:0;
+     list-style:none 
+}
+ .social-icones li {
+     display:inline-block;
+     margin-bottom:4px 
+}
+ .social-icones a{
+     background-color:#eceeef;
+     color:#818a91;
+     display:inline-block;
+     width:44px;
+     height:44px;
+     text-align:center;
+     border-radius:100%;
+     -webkit-transition:all .2s linear;
+     -o-transition:all .2s linear;
+     transition:all .2s linear 
+}
+ .social-icones a:active,.social-icones a:focus,.social-icones a:hover {
+     color:#fff;
+     background-color:var(--second-color);
+}
+ .social-icones a.facebook:hover {
+     background-color:#3b5998 
+}
+ .social-icones a.twitter:hover {
+     background-color:#00aced 
+}
+ .social-icones a.linkedin:hover {
+     background-color:#007bb6 
+}
+ .social-icones a.instagram:hover {
+     background-color:#bc2a8d 
+}
+ @media (max-width:767px) {
+     .social-icones li.title {
+         display:block;
+         margin-right:0;
+         font-weight:600 
+    }
+}
+ 
