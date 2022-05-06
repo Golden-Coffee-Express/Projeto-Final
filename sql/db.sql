@@ -11,7 +11,6 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -25,9 +24,10 @@ CREATE DATABASE IF NOT EXISTS `database`;
 
 USE `database`;
 
-CREATE TABLE IF NOT EXISTS `users` (
+CREATE TABLE IF NOT EXISTS `user` (
   `id` int(10) UNSIGNED AUTO_INCREMENT NOT NULL,
   `nome` varchar(50) NOT NULL,
+  `end` varchar(100) NOT NULL,
   `tipo_user` varchar(50) NOT NULL,
   `mail` varchar(50) NOT NULL,
   `senha` varchar(50) NOT NULL,
@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS `estoque` (
   PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET = utf8mb4;
 
-INSERT INTO `users` (`id`, `nome`, `tipo_user`, `mail`, `senha`, `reg_data`) VALUES
+INSERT INTO `user` (`id`, `nome`, `tipo_user`, `mail`, `senha`, `reg_data`) VALUES
 (6, 'Teste', 'user', 'teste@teste.com', '698dc19d489c4e4db73e28a713eab07b', '2022-05-03 23:02:44');
 
 
