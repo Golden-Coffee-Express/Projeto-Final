@@ -37,7 +37,7 @@ function register(){
 	}
 
 	// Verifica se o User já existe na Database
-	$user_check_query = "SELECT * FROM users WHERE nome='$nome' OR email='$email' LIMIT 1";
+	$user_check_query = "SELECT * FROM user WHERE nome='$nome' OR email='$email' LIMIT 1";
 	$result = mysqli_query($db, $user_check_query);
 	$user = mysqli_fetch_assoc($result);
 	
@@ -57,13 +57,13 @@ function register(){
 
 		if (isset($_POST['tipo_user'])) {
 			$tipo_user = e($_POST['tipo_user']);
-			$query = "INSERT INTO users (nome, email, tipo_user, senha) 
+			$query = "INSERT INTO user (nome, email, tipo_user, senha) 
 					  VALUES('$nome', '$email', '$tipo_user', '$senha')";
 			mysqli_query($db, $query);
 			$_SESSION['sucesso']  = "Novo usuário criado com sucesso !";
 			header('location: home.php');
 		}else{
-			$query = "INSERT INTO users (nome, email, tipo_user, senha) 
+			$query = "INSERT INTO user (nome, email, tipo_user, senha) 
 					  VALUES('$nome', '$email', 'user', '$senha')";
 			mysqli_query($db, $query);
 
@@ -80,7 +80,7 @@ function register(){
 // Retorna Info do usuário por meio de seu ID
 function getUserById($id){
 	global $db;
-	$query = "SELECT * FROM users WHERE id=" . $id;
+	$query = "SELECT * FROM user WHERE id=" . $id;
 	$result = mysqli_query($db, $query);
 
 	$user = mysqli_fetch_assoc($result);
@@ -145,7 +145,7 @@ function login(){
 	if (count($erros) == 0) {
 		$senha = md5($senha);
 
-		$query = "SELECT * FROM users WHERE nome='$nome' AND senha='$senha' LIMIT 1";
+		$query = "SELECT * FROM user WHERE nome='$nome' AND senha='$senha' LIMIT 1";
 		$results = mysqli_query($db, $query);
 
 		if (mysqli_num_rows($results) == 1) { 
