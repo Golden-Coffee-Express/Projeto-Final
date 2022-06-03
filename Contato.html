@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="viewport" content="width=device-width, initial-scale1.0">
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link rel="stylesheet" type="text/css" href="estiloContato.css">
+    </head>
+   <body>
+    
+        <section class="contato">
+            <div class="content">
+                <h2>Contato</h2>
+                <p>Nos mande uma mensagem que em breve te responderemos</p>
+            </div>
+            <div class="container">
+                <div class="Infocontato">
+                    <div class="box">
+                        <div class="icon-local">
+                        </div>
+                            <div class="text">
+                                <h3>Endereço</h3>
+                                <p>Rua Mariz e Barros 273,<br> Maracanã, Rio de Janeiro<br> 20270-003</p>
+                            </div>
+                        </div>
+
+                    <div class="box">
+                        <div class="icon-celular">
+                        </div>
+                            <div class="text">
+                                <h3>Telefone</h3>
+                                <p>(21)96666-6666</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon-email">
+                                </div>
+                                <div class="text">
+                                    <h3>Email</h3>
+                                    <p>GoldenCoffee@gmail.com</p>
+                                </div>
+                            </div>
+                </div>
+                <div class="contact-form">
+                <form class="contact" action="./email.php" method="POST">
+                <h2>
+                   Mande uma mensagem 
+                </h2>
+                <div class="inputBox">
+                    <input type="text" name="Nome" required="required">
+                    <span>Nome</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="Email" required="required">
+                    <span>E-mail</span>
+                </div>
+                <div class="inputBox">
+                    <textarea name="Mensagem" required="required"></textarea>
+                    <span>Digite sua mensagem</span>
+                </div>
+                <div class="inputBox">
+                    <input type="submit" name="" value="Enviar">
+                </div>
+            </form>
+            </div>
+        </section>
+    </script>
+    </body>
+</html>
