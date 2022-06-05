@@ -1,195 +1,144 @@
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-   <head>
+<head>
+	<meta charset="UTF-8">
+	<!--<meta http-equiv="X-UA-Compatible" contato-header="IE=edge">-->
+	<!--<meta name="viewport" contato-header="width=device-width, initial-scale=1.0">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" contato-header="Melhor Café de Todos">
+	<title>Golden Coffee Express</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="style.css">
-      <!-- CSS -->
-      <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-      <title>Golden Express</title>
+<body>
+	<header class="cabecalho">
+		<div id="left-menu-destkop">
+			<img class="cabecalho-imagem" src="img/logo.png" alt="Logo da Empresa Golden Coffee Express">
+			<nav class="cabecalho-menu">
+				<!--           
+            <div class="mobile-menu">
+               <div class="linha1"></div>
+               <div class="linha2"></div>
+               <div class="linha3"></div>
+            </div>
+-->
+				<a class="cabecalho-menu-item" href="#inicio">Início</a>
+				<a class="cabecalho-menu-item" href="#sobre">Sobre</a>
+				<a class="cabecalho-menu-item" href="#cardapio">Cardápio</a>
+				<a class="cabecalho-menu-item" href="#contato">Contato</a>
+			</nav>
+		</div>
+		<div id="right-menu-destkop">
+			<nav class="cabecalho-menu">
+				<a class="cabecalho-menu-item">criar conta</a>
+				<a class="cabecalho-menu-item">ENTRAR</a>
+			</nav>
+		</div>
+	</header>
 
-   </head>
+	<main class="conteudo">
+		<section class="conteudo-inicio" id="inicio">
+			<div class="conteudo-inicio-escrito">
+				<h1 class="conteudo-inicio-escrito-titulo">A VIDA SÓ COMEÇA DEPOIS DE UM CAFÉ !</h1>
+				<h2 class="conteudo-inicio-escrito-subtitulo">Faça compras e ganhe pontos para conseguir "Cupons de
+					Descontos"</h2>
+				<button class="conteudo-inicio-escrito-botao">Fazer pedido</button>
+			</div>
+			<img class="conteudo-inicio-imagem" src="img/cafe0.png" all="Imagem de Café Expresso">
+		</section>
 
-   <body>
+		<section class="conteudo-sobre" id="sobre-section">
+			<a class="anchor" id="sobre"></a>
 
-      <!-- Site footer -->
+			<!---->
+			<h3 class="conteudo-titulo">Como funcionam os "Cupons de Descontos"?</h3>
+			<p class="conteudo-paragrafo">1. Realize um pedido de <strong>qualquer produto</strong></p>
+			<p class="conteudo-paragrafo">2. Receba seus <strong>pontos</strong></p>
+			<p class="conteudo-paragrafo">3. Vá em <strong>Descontos Especiais</strong></p>
+			<p class="conteudo-paragrafo">4. Troque por <strong>Cupons de Descontos</strong></p>
+			<!---->
 
-      <header class="site-nav" id="nav">
-         <div class="mobile-nav">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-         </div>
-         <a class="logo" href="#index"><i class='bx bx-lg bx-coffee-togo'></i></a>
-         <ul class="nav-bar">
-            <li><a href="#home">Início</a></li>
-            <li><a href="Sobre.html">Sobre</a></li>
-            <li><a href="Contato.html">Contato</a></li>
-            <li><a href="#menu">Menu</a></li>
-         </ul>
-         <div class="nav-icon">
-            <a class="login" href="php/index.php"><img src="img/social/user.png"></a>
-            <a class="carrinho" href="#carrinho"><i class='bx bx-sm bx-cart-alt'></i></a>
-         </div>
-      </header>
+		</section>
+	</main>
 
-      <main>
+	<section class="conteudo-cardapio" id="cardapio-section">
+		<a class="anchor" id="cardapio"></a>
 
-         <!-- Home -->
+		<!---->
+		<h3 class="conteudo-titulo">Sessão 3</h3>
+		<p class="conteudo-paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<!---->
 
-         <section class="site-home" id="home">
-           <div class="container">
-            <div class="home-text">
-               <h1>A vida só começa <br> depois do café !</h1>
-               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Delectus porro error, voluptates beatae ipsum cupiditate.</p>
-               <a href="#menu" class="btn">Compre Agora</a>
-            </div>
-            <div class="box">
-               <img src="img/cafe0.png" alt="home-img">
-            </div>
-          </div>
-         </section>
+	</section>
 
-<!-- Menu -->
+	<section id="contato-section">
 
-<section class="site-menu" id="menu">
-   <div class="menu-header">
-      <h2>Menu</h2>
-   </div>
-   <div class="container">
-      <div class="menu-container">
-         <div class="box">
-            <img src="http://www.padariasantamarta.com.br/images/padaria%20santa%20marta%20-%20foto%20bruno%20de%20lima%207612.jpg?crc=4191320246" alt="sonho">
-            <h3>Sonho</h3>
-            <div class="info">
-               <a>Lorem ipsum dolor, sit adipisicing elit. Magnam reprehenderit.</a>
-            </div>
-            <div class="content">
-               <span>A partir de R$25,00*</span>
-            </div>
-         </div>
-         <div class="box">
-            <img src="http://www.padariasantamarta.com.br/images/padaria%20santa%20marta%20-%20foto%20bruno%20de%20lima%206682.jpg?crc=3916693201" alt="tarteletes">
-            <h3>Tarteletes</h3>
-            <div class="info">
-               <a>Lorem ipsum dolor, sit adipisicing elit. Magnam reprehenderit.</a>
-            </div>
-            <div class="content">
-               <span>A partir de R$25,00*</span>
-            </div>
-         </div>
-         <div class="box">
-            <img src="http://www.padariasantamarta.com.br/images/rocambole-chocolate-padaria-santa-marta2.jpg?crc=294369430" alt="rocambole">
-            <h3>Rocambole</h3>
-            <div class="info">
-               <a>Lorem ipsum dolor, sit adipisicing elit. Magnam reprehenderit.</a>
-            </div>
-            <div class="content">
-               <span>A partir de R$25,00*</span>
-            </div>
-         </div>
-         <div class="box">
-            <img src="http://www.padariasantamarta.com.br/images/bombas%20de%20chocolate%20preto%20e%20chocolate%20branco.jpg?crc=3888543976" alt="bomba">
-            <h3>Bomba</h3>
-            <div class="info">
-               <a>Lorem ipsum dolor, sit adipisicing elit. Magnam reprehenderit.</a>
-            </div>
-            <div class="content">
-               <span>A partir de R$25,00*</span>
-            </div>
-         </div>
-         <div class="box">
-            <img src="http://www.padariasantamarta.com.br/images/pao-a-metro-pai%20australiano.jpg?crc=3895009650" alt="pao-australiano">
-            <h3>Pão Australiano</h3>
-            <div class="info">
-               <a>Lorem ipsum dolor, sit adipisicing elit. Magnam reprehenderit.</a>
-            </div>
-            <div class="content">
-               <span>A partir de R$25,00*</span>
-            </div>
-         </div>
-         <div class="box">
-            <img src="http://www.padariasantamarta.com.br/images/mini%20churros.jpg?crc=3898017464" alt="mini-churros">
-            <h3>Mini Churros</h3>
-            <div class="info">
-               <a>Lorem ipsum dolor, sit adipisicing elit. Magnam reprehenderit.</a>
-            </div>
-            <div class="content">
-               <span>A partir de R$25,00*</span>
-            </div>
-         </div>
-         <div class="box">
-            <img src="http://www.padariasantamarta.com.br/images/padaria%20santa%20marta%20-%20foto%20bruno%20de%20lima%20095955x638.jpg?crc=3983039153" alt="bolo-milho">
-            <h3>Bolo de Milho</h3>
-            <div class="info">
-               <a>Lorem ipsum dolor, sit adipisicing elit. Magnam reprehenderit.</a>
-            </div>
-            <div class="content">
-               <span>A partir de R$25,00*</span>
-            </div>
-         </div>
-         <div class="box">
-            <img src="http://www.padariasantamarta.com.br/images/mil%20folhas%20(2)955x637.jpg?crc=126732199" alt="mil-folhas">
-            <h3>Mil-Folhas</h3>
-            <div class="info">
-               <a>Lorem ipsum dolor, sit adipisicing elit. Magnam reprehenderit.</a>
-            </div>
-            <div class="content">
-               <span>A partir de R$25,00*</span>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
+		<a class="anchor" id="contato"></a>
+		<div id="contato-content">
 
-</main>
+			<div class="contato-header">
+				<h2 class="contato-titulo">Contato</h2>
+				<p>Nos mande uma mensagem que em breve te responderemos</p>
+			</div>
+			<div id="contato-body">
 
-       <!-- Site footer -->
+				<!--Parte esquerda do contato-->
+				<div class="contato-body-container"  id="contato-esquerda-container">
+					<div id="contato-info">
+						<div class="contato-topico">
+							<h3>Endereço</h3>
+							<p>Rua Mariz e Barros 273,<br> Maracanã, Rio de Janeiro<br> 20270-003</p>
+						</div>
+						<div class="contato-topico">
+							<h3>Telefone</h3>
+							<p>(21)96666-6666</p>
+						</div>
+						<div class="contato-topico">
+							<h3>Email</h3>
+							<p>goldencoffeeexpress@gmail.com</p>
+						</div>
+					</div>
+				</div>
 
-<footer class="site-footer" id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <h6>Sobre</h6>
-        <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos provident molestias qui repellat aperiam ad accusantium quae exercitationem.</p>
-      </div>
-      <div class="col-xs-6 col-md-3">
-        <h6>Acesso Rápido</h6>
-        <ul class="footer-links">
-          <li><a href="#home">Início</a></li>
-          <li><a href="#menu">Menu</a></li>
-          <li><a href="php/index.php">Login</a></li>
-          <li><a href="#carrinho">Carrinho</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </div>
-    </div>
-    <hr style="width:350px; border-top-color:#bbb; opacity:0.5; margin:10px 0;">
-  </div>
-  <div class="container">
-    <div class="footer-bottom">
-      <div class="col-md-8 col-sm-6 col-xs-12">
-        <p class="copyright-text">Copyright &copy; 2022 Todos os direitos reservados. <br>
-     <a href="#">Golden Express Coffee Ltda.</a>
-        </p>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <ul class="social-icones">
-          <li><a class="facebook" href="#"><img src="img/social/facebook-logo.png"></a></li>
-          <li><a class="twitter" href="#"><img src="img/social/twitter-logo.png"></a></li>
-          <li><a class="instagram" href="#"><img src="img/social/instagram-logo.png"></a></li>
-          <li><a class="linkedin" href="#"><img src="img/social/linkedin-logo.png"></a></li>   
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
 
-<script src="js/nav.js"></script>
+				<!--Parte direita do contato-->
+				<div class="contato-body-container" id="contato-direita-container">
+					<div class="contact-form">
+						<form class="contact" action="./email.php" method="POST">
+							<h2>
+								Mande uma mensagem
+							</h2>
+							<div class="inputBox">
+								<input type="text" name="Nome" required="required">
+								<span>Nome</span>
+							</div>
+							<div class="inputBox">
+								<input type="text" name="Email" required="required">
+								<span>E-mail</span>
+							</div>
+							<div class="inputBox">
+								<textarea name="Mensagem" required="required"></textarea>
+								<span>Digite sua mensagem</span>
+							</div>
+							<div class="inputBox">
+								<input type="submit" name="" value="Enviar">
+							</div>
+						</form>
+					</div>
+				</div>
 
-   </body>
+			</div>
+
+			<!---->
+
+	</section>
+
+	<footer class="rodape">
+		<img class="rodape-imagem" src="img/logo.png" alt="Logo da Empresa Golden Coffee Express">
+	</footer>
+</body>
+
 </html>
-
