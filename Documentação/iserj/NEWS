@@ -1,0 +1,152 @@
+# ;; -*- mode: org; coding: utf-8 -*-
+
+#+TITLE: ThesisPUC document class NEWS
+
+* Latest News
+
+** August the 16th, 2017
+
+ThesisPUC document class version 1.0.6.
+
+Changes since 1.0.5
+-------------------
+
+1.	Fixing using '%' in titles
+
+It is now possible to use '%', escaped of course, so like this instead
+'\%' in sections, subsections... Before this fix and exception would be
+raised.
+
+2.  \locale renamed \llocale
+
+The internal variable \locale has been renamed \llocale, the former
+conflicting with some texlive local variables.
+
+3.	Manual fixes
+
+All manual entries have been updated to correspond to the previous
+release naming updates with respect to american spelling for words like
+advisor, co-advisor ...
+
+4.	Brazilian as the default language
+
+There were no proper definition for a default thesis language, relying
+on a proper user entry in the document class options, but this is now
+fixed and unless otherwise the default language is now 'brazilian' (it
+was american english, but that was a mistake).
+
+
+* Older News
+
+** March the 24th, 2017
+
+ThesisPUC document class version 1.0.5 is released, the next maintenance
+release for the 1.0 series.
+
+*** Changes since 1.0.4
+
+This release fixes the american english version of the template:
+
+-] all font pages now use 'Advisor' and Co-advisor' instead of
+   'Adviser', Co-adviser';
+
+-] the 'Coordenador Setorial...' title is now in english, 'Vice Dean of
+   Graduate Studies';
+
+-] all front pages now use american date format;
+
+-] 'Figure ' and 'Table ' prefix all list of figures and list of tables
+   entries;
+
+-] a dedication [optional] page has been added to the 'tiny.tex'
+   example;
+
+-] an extra dot removed from the automatically built abstract text;
+
+-] in the abstract, even for the american english template, the type of
+   thesis (master or Phd) must be in Portuguese, fixed;
+
+-] an extra dot removed from the automatically built 'Resumo';
+
+-] chapters, sections, figures and tables titles of the 'tiny' example 
+   have been translated.
+
+** December the 20th, 2016
+
+ThesisPUC document class version 1.0.4 is released, the next maintenance
+release for the 1.0 series.
+
+*** Changes since 1.0.3
+
+ThesisPUC document class now allows and fully supports thesis written in
+English. Such thesis must declare their doccument class as this:
+
+	\documentclass[
+	  phd,
+	  american
+	]{ThesisPUC}
+
+Notes:
+
+	- In the above:
+
+		master replaces phd for master thesis
+		brazilian replaces american for portuguese thesis
+
+	- The \title command must still hold the portuguese version of
+    the title: it is used for the page 'Resumo'.
+
+The tiny.tex example has been declared as a phd american english written
+thesis (although we did not translate its chapters and conclusion
+content): all front pages, their order when applicable, as well as any
+automatically generated text are in English.
+
+** October the 20th, 2016
+
+ThesisPUC document class version 1.0.3 is released, the next maintenance
+release for the 1.0 series.
+
+*** Changes since 1.0.2
+
+New commands
+------------
+
+This release add three new commands
+
+	\catalogprekeywords
+    \catalogprekey
+
+	\usecolour
+
+The first two commands are mandatory, the third is optional. Please read
+their corresponding manual entry for a complete description, usage and
+example.
+
+Bug fixes
+---------
+
+	- a tipo has been fixed in both examples: a coma was missing in
+      between the document class options in both examples, leading to
+      the terrible side effect of not properly hyphenating the
+      nonetheless specified Brazilian language;
+
+	- abstract pages, both the brazilian and the english one, now
+      have a proper indentation of their first paragraph;
+
+	- the automatically generated catalog entry (ficha
+      catalográfica) has been debugged and reviewed in order to satisfy
+      the university library and publication rules;
+
+	- the table of content listed an undesired entry, fixed.
+
+	- the brazilian bibliographic references chapter title is now
+      'Referências bibliográfica' (not 'Referências Bibliográfica'):
+      note that it is recommended, by the PUC-Rio to only capitalize the
+      first letter of the first word of chapter, secton ... entries.
+
+
+Dependencies
+------------
+
+	- No changes, but it is recomended to grab the latest texinfo
+      version, 6.3, if you locally (re)generate the documentation.
