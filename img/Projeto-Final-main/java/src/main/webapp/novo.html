@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+<meta charset="utf-8">
+<title>Estoque</title>
+<link rel="icon" href="imagens/lista.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Adicionar novo item</h1>
+	<form name="frmItem" action="insert">
+		<table>
+		<tr>
+			<td><input type="text" name="item" placeholder="item" class="Caixa1"></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="distribuidora" placeholder="distribuidora" class="Caixa1"></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="quantidade" placeholder="quantidade" class="Caixa2"></td>
+		</tr>
+		</table>
+		<input type="button" value="adicionar" class="Botao1" onclick="validar()"> 
+	</form>
+<script src = "Scripts/validador.js"></script></body>
+</html>
