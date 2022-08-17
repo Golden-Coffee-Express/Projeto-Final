@@ -1,0 +1,215 @@
+%% -*- coding: utf-8; -*-
+
+\documentclass[
+  phd,
+  %% master
+  %% brazilian
+  american
+]{Iserj}
+
+
+%%%
+%%% Additional Packages
+%%%
+
+  %% \usepackage[brazilian]{babel}      %% in ThesisPUC.cls
+  %% \usepackage[utf8]{inputenc}        %% .
+  %% \usepackage[T1]{fontenc}           %% .
+  %% \usepackage{lmodern}               %% .
+  %% \usepackage[pdftex]{graphicx}	%% .
+
+  \usepackage{tabularx}
+  \usepackage{multirow}
+  \usepackage{multicol}
+  \usepackage{colortbl}
+  \usepackage[%
+    dvipsnames,
+    svgnames,
+    x11names,
+    fixpdftex
+  ]{xcolor}
+  \usepackage{numprint}
+  \usepackage{textcomp}
+  \usepackage{booktabs}
+  \usepackage{amsmath}
+  \usepackage{enumitem}
+  \usepackage{amssymb}
+  \usepackage{textcomp}
+% \usepackage{etoolbox}
+
+%% numprint 
+\npthousandsep{.}
+\npdecimalsign{,}
+
+
+%% \tablesmode{figtab} %% [nada, fig, tab ou figtab]
+
+
+%%%
+%%% Counters
+%%%
+
+%% uncomment and change for other depth values
+%% \setcounter{tocdepth}{3}
+%% \setcounter{lofdepth}{3}
+%% \setcounter{lotdepth}{3}
+%% \setcounter{secnumdepth}{3}
+
+
+%%%
+%%% New commands and other global definitions
+%%%
+
+\input{defs}
+
+
+%%%
+%%% Misc.
+%%%
+
+\usecolour{true}
+
+
+%%%
+%%% Titulos
+%%%
+
+\authorA{Daniel Lima de Souza}
+\authorB{Guilherme Gomes da Silva}
+\authorC{Gustavo de Menezes Antunes}
+\authorD{João Emanoel Nunes de Medeiros}
+\authorE{João Victor Padilha}
+\authorF{Lucas Lindoso Paz Domingues}
+\authorG{Thales Gomes Santana Santos}
+\authorRA{de Souza, Daniel Lima}
+\authorRB{da Silva, Guilherme Gomes}
+\authorRC{Antunes, Gustavo de Menezes}
+\authorRD{de Medeiros, João Emanoel Nunes}
+\authorRE{Padilha, João Victor}
+\authorRF{Paz Domingues, Lucas Lindoso}
+\authorRG{Santana Santos, Thales Gomes}
+
+\advisorPF{Sancrey Rodrigues Alves}
+\advisorMD{Marcus Vinicius dos Santos Claro}
+\advisorLTP{Antônio Eduardo Brivio}
+\advisorWEB{Antônio Eduardo Brivio}
+
+
+
+
+\title{Golden Express Coffee Company}
+
+\titleuk{Development of a digital microscopy system for automatic
+  classification of hematite types in iron ore}
+
+%% \subtitulo{Aqui vai o subtitulo caso precise}
+
+\day{17}
+\month{Junho}
+\year{2022}
+
+\city{Rio de Janeiro}
+\CDD{620.11}
+\university{Instituto Superior de Educação do Rio de Janeiro}
+\uni{ISERJ}
+
+
+%%%
+%%% Jury
+%%%
+
+\jury{%
+  \jurymember{Sancrey Rodrigues Alves}{Prof.}
+    {Projeto Final}{}
+  \jurymember{Marcus Vinicius dos Santos Claro}{Prof.}
+    {Modelagem de Dados}{}
+  \jurymember{Antônio Eduardo Brivio}{Prof.}
+    {Linguagem Técnica de Programação}{}
+  \jurymember{Antônio Eduardo Brivio}{Prof.}
+    {Programação para WEB}{}
+  \schoolhead{Arnaldo Pereira de Carvalho Filho}{Prof.}
+}
+
+
+\acknowledgment{%
+  Agradece-se aos docentes Sancrey Rodrigues Alves (Professor Orientador), Marcus Vinicius dos Santos Claro (Professor de Modelagem de Dados 3) e Antônio Eduardo Brivio (Professor de Linguagem e Técnica de Programação 3) pelas
+orientações e aconselhamentos para a realização deste trabalho de conclusão do Curso Técnico em Informática.
+}
+
+
+\catalogprekeywords{%
+  \catalogprekey{Curso Técnico em Informática}%
+}
+
+
+\keywords{%
+  \key{Estudo de Caso;}
+  \key{Análise de Requisitos;}
+  \key{UML;}
+  \key{Programação para WEB;}
+}
+
+\chavesuk{%
+	\chave{Study of Use Case;}%
+\chave{Requirement Analysis;}%
+\chave{UML;}%
+\chave{WEB Programming;}%
+}
+
+\abstract{%
+	
+	Este trabalho de conclusão de curso - TCC - quantitativamente tem por objetivo a
+	automatização e modernização das atividades da cafeteria Golden Express Coffee Comany.
+	
+	Este documento é formado por todas as fases precisas para a feitura deste sistema, além do estudo do caso de uso por meio de seu diagrama, a síntese da análise de requisitos separadas com o propósito do
+	sistema, o minimundo e a lista de requesitos. Também estão incluindos a parte de UML e todo o
+	operacional da programação para Java e Web, sendo os seus tópicos descritos separadamente em
+	capítulos.
+}
+
+\abstractuk{%
+	
+	This course conclusion work - TCC - aims to automate and modernize the activities of the Golden Express Coffee Comany coffee shop.
+	
+	This document is formed by all the phases as necessary for the making of the system, in addition to the study of the use case through its diagram, a synthesis of the analysis of separate requirements with the purpose of the system, the miniworld and the list of requirements. They are also including the UML part and the entire operational programming for the Java Web, being presented and explored in chapters.
+}
+
+
+%%%
+%%% Dedication
+%%%
+
+%\dedication{%
+%  Dedicatória do\\ grupo.
+%}
+
+%%%
+%%% Epigraph
+%%%
+
+%\epigraph{%
+%  My beautifull epigraph
+%}
+%\epigraphauthorA{Wassily Kandinsky}
+%\epigraphbook{Regards sur le passé}
+
+
+%%%
+%%% 
+%%%
+
+\begin{document}
+
+%  \input{abrevs}
+  \input{chapter-1}
+  \input{chapter-2}
+  \input{chapter-3}
+  \input{chapter-4}
+  \input{conclusions}
+  %% ...
+  \arial
+  \bibliography{tiny}
+  \normalfont
+  \input{appendix}
+
+\end{document}
