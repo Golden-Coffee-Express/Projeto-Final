@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.20)  17 JUN 2022 22:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.20)  27 AUG 2022 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -689,7 +689,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 ) (defs.tex)
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 20
-1.
+4.
 
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -702,24 +702,24 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (tiny.aux)
 \openout1 = `tiny.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 201.
-LaTeX Font Info:    ... okay on input line 201.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
 
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
@@ -748,8 +748,8 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 201.
-Package hyperref Info: Link coloring ON on input line 201.
+(lastpage)             ! on input line 204.
+Package hyperref Info: Link coloring ON on input line 204.
 
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -763,15 +763,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count324
 )
-LaTeX Info: Redefining \ref on input line 201.
-LaTeX Info: Redefining \pageref on input line 201.
-LaTeX Info: Redefining \nameref on input line 201.
+LaTeX Info: Redefining \ref on input line 204.
+LaTeX Info: Redefining \pageref on input line 204.
+LaTeX Info: Redefining \nameref on input line 204.
  (tiny.out) (tiny.out)
 \@outlinefile=\write3
 \openout3 = `tiny.out'.
 
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
-01.
+04.
 
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -779,45 +779,45 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 <iserj.png, id=75, 225.84375pt x 225.84375pt>
 File: iserj.png Graphic file (type png)
 <use iserj.png>
-Package pdftex.def Info: iserj.png  used on input line 201.
+Package pdftex.def Info: iserj.png  used on input line 204.
 (pdftex.def)             Requested size: 233.32465pt x 233.3125pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-01.
+04.
 
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-01.
+04.
 
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-201.
+204.
 
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-201.
+204.
 
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 201.
+(Font)              <12> on input line 204.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 201.
+(Font)              <8> on input line 204.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 201.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 201
+(Font)              <6> on input line 204.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 204
 .
 
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 201
+LaTeX Font Info:    Trying to load font information for U+msb on input line 204
 .
 
 (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -832,7 +832,7 @@ Non-PDF special ignored!
 >]
 File: iserj.png Graphic file (type png)
 <use iserj.png>
-Package pdftex.def Info: iserj.png  used on input line 201.
+Package pdftex.def Info: iserj.png  used on input line 204.
 (pdftex.def)             Requested size: 233.32465pt x 233.3125pt.
  [2
 
@@ -840,7 +840,7 @@ Package pdftex.def Info: iserj.png  used on input line 201.
 \c@keycount=\count325
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 201.
+Package hyperref Warning: Ignoring empty anchor on input line 204.
 
 [3
 
@@ -874,18 +874,18 @@ Chapter 1.
 [10
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-6.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
+1.
  (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 [11]) (chapter-2.tex [12]
 Chapter 2.
-<DER.jpg, id=200, 954.56625pt x 703.62875pt>
-File: DER.jpg Graphic file (type jpg)
-<use DER.jpg>
-Package pdftex.def Info: DER.jpg  used on input line 8.
-(pdftex.def)             Requested size: 426.79134pt x 314.59007pt.
+<DER.jpeg, id=200, 829.0975pt x 382.42876pt>
+File: DER.jpeg Graphic file (type jpg)
+<use DER.jpeg>
+Package pdftex.def Info: DER.jpeg  used on input line 8.
+(pdftex.def)             Requested size: 426.79134pt x 196.85672pt.
 
 Overfull \hbox (28.45274pt too wide) in paragraph at lines 8--10
  [][] 
@@ -904,11 +904,11 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 15--16
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<DC.jpg, id=202, 699.61375pt x 435.6275pt>
+<DC.jpg, id=202, 663.47874pt x 544.0325pt>
 File: DC.jpg Graphic file (type jpg)
 <use DC.jpg>
 Package pdftex.def Info: DC.jpg  used on input line 21.
-(pdftex.def)             Requested size: 426.79134pt x 265.75232pt.
+(pdftex.def)             Requested size: 426.79134pt x 349.95609pt.
 
 Overfull \hbox (28.45274pt too wide) in paragraph at lines 21--22
  [][] 
@@ -919,13 +919,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (chapter-3.tex [13
 
- <./DER.jpg>]
-
-LaTeX Warning: Text page 14 contains only floats.
-
-[14 <./DCU.jpg> <./DC.jpg>]
+ <./DER.jpeg>] [14 <./DCU.jpg>] [15 <./DC.jpg>]
 Chapter 3.
-<Cabeçalho.png, id=212, 1423.56844pt x 107.65219pt>
+<Cabeçalho.png, id=216, 1423.56844pt x 107.65219pt>
 File: Cabeçalho.png Graphic file (type png)
 <use Cabeçalho.png>
 Package pdftex.def Info: Cabeçalho.png  used on input line 7.
@@ -935,7 +931,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
-<Sessão Início.png, id=214, 1425.07407pt x 532.23843pt>
+<Sessão Início.png, id=218, 1425.07407pt x 532.23843pt>
 File: Sessão Início.png Graphic file (type png)
 <use Sessão Início.png>
 Package pdftex.def Info: Sessão Início.png  used on input line 13.
@@ -945,7 +941,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 13--14
  [][] 
  []
 
-<Sessão Sobre.png, id=215, 1425.07407pt x 532.99126pt>
+<Sessão Sobre.png, id=219, 1425.07407pt x 532.99126pt>
 File: Sessão Sobre.png Graphic file (type png)
 <use Sessão Sobre.png>
 Package pdftex.def Info: Sessão Sobre.png  used on input line 19.
@@ -955,7 +951,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 19--20
  [][] 
  []
 
-<Sessão Cardápio.png, id=216, 1426.57968pt x 533.74406pt>
+<Sessão Cardápio.png, id=220, 1426.57968pt x 533.74406pt>
 File: Sessão Cardápio.png Graphic file (type png)
 <use Sessão Cardápio.png>
 Package pdftex.def Info: Sessão Cardápio.png  used on input line 25.
@@ -968,7 +964,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 25--26
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Sessão Contato.png, id=217, 1424.32124pt x 533.74406pt>
+<Sessão Contato.png, id=221, 1424.32124pt x 533.74406pt>
 File: Sessão Contato.png Graphic file (type png)
 <use Sessão Contato.png>
 Package pdftex.def Info: Sessão Contato.png  used on input line 31.
@@ -981,7 +977,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 31--32
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Rodapé.png, id=218, 1426.57968pt x 126.4725pt>
+<Rodapé.png, id=222, 1426.57968pt x 126.4725pt>
 File: Rodapé.png Graphic file (type png)
 <use Rodapé.png>
 Package pdftex.def Info: Rodapé.png  used on input line 37.
@@ -994,12 +990,12 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 37--38
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (chapter-4.tex [15
+) (chapter-4.tex [16
 
- <./Cabeçalho.png> <./Sessão Início.png> <./Sessão Sobre.png>] [16 <./Sess�
+ <./Cabeçalho.png> <./Sessão Início.png> <./Sessão Sobre.png>] [17 <./Sess�
 �o Cardápio.png> <./Sessão Contato.png> <./Rodapé.png>]
 Chapter 4.
-<Contato HTML 1.png, id=233, 973.38657pt x 603.0028pt>
+<Contato HTML 1.png, id=237, 973.38657pt x 603.0028pt>
 File: Contato HTML 1.png Graphic file (type png)
 <use Contato HTML 1.png>
 Package pdftex.def Info: Contato HTML 1.png  used on input line 7.
@@ -1009,7 +1005,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
-<Contato HTML 2.png, id=234, 1073.51062pt x 608.2725pt>
+<Contato HTML 2.png, id=238, 1073.51062pt x 608.2725pt>
 File: Contato HTML 2.png Graphic file (type png)
 <use Contato HTML 2.png>
 Package pdftex.def Info: Contato HTML 2.png  used on input line 13.
@@ -1022,7 +1018,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 13--14
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Contato CSS 1.png, id=235, 1266.23062pt x 622.57594pt>
+<Contato CSS 1.png, id=239, 1266.23062pt x 622.57594pt>
 File: Contato CSS 1.png Graphic file (type png)
 <use Contato CSS 1.png>
 Package pdftex.def Info: Contato CSS 1.png  used on input line 19.
@@ -1035,7 +1031,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 19--20
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Contato CSS 2.png, id=236, 1251.92719pt x 620.3175pt>
+<Contato CSS 2.png, id=240, 1251.92719pt x 620.3175pt>
 File: Contato CSS 2.png Graphic file (type png)
 <use Contato CSS 2.png>
 Package pdftex.def Info: Contato CSS 2.png  used on input line 25.
@@ -1048,7 +1044,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 25--26
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Contato CSS 3.png, id=237, 1248.16313pt x 624.83438pt>
+<Contato CSS 3.png, id=241, 1248.16313pt x 624.83438pt>
 File: Contato CSS 3.png Graphic file (type png)
 <use Contato CSS 3.png>
 Package pdftex.def Info: Contato CSS 3.png  used on input line 31.
@@ -1061,7 +1057,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 31--32
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Contato CSS 4.png, id=238, 1246.6575pt x 619.56468pt>
+<Contato CSS 4.png, id=242, 1246.6575pt x 619.56468pt>
 File: Contato CSS 4.png Graphic file (type png)
 <use Contato CSS 4.png>
 Package pdftex.def Info: Contato CSS 4.png  used on input line 37.
@@ -1074,7 +1070,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 37--38
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Contato CSS 5.png, id=239, 1252.68pt x 621.82312pt>
+<Contato CSS 5.png, id=243, 1252.68pt x 621.82312pt>
 File: Contato CSS 5.png Graphic file (type png)
 <use Contato CSS 5.png>
 Package pdftex.def Info: Contato CSS 5.png  used on input line 43.
@@ -1087,7 +1083,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 43--44
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Contato CSS 6.png, id=240, 1254.93843pt x 618.05907pt>
+<Contato CSS 6.png, id=244, 1254.93843pt x 618.05907pt>
 File: Contato CSS 6.png Graphic file (type png)
 <use Contato CSS 6.png>
 Package pdftex.def Info: Contato CSS 6.png  used on input line 49.
@@ -1100,7 +1096,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 49--50
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Contato CSS 7.png, id=241, 1254.93843pt x 629.35126pt>
+<Contato CSS 7.png, id=245, 1254.93843pt x 629.35126pt>
 File: Contato CSS 7.png Graphic file (type png)
 <use Contato CSS 7.png>
 Package pdftex.def Info: Contato CSS 7.png  used on input line 55.
@@ -1113,7 +1109,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 55--56
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Contato CSS 8.png, id=242, 1251.92719pt x 621.07031pt>
+<Contato CSS 8.png, id=246, 1251.92719pt x 621.07031pt>
 File: Contato CSS 8.png Graphic file (type png)
 <use Contato CSS 8.png>
 Package pdftex.def Info: Contato CSS 8.png  used on input line 61.
@@ -1126,7 +1122,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 61--62
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Contato CSS 9.png, id=243, 1253.43282pt x 389.20406pt>
+<Contato CSS 9.png, id=247, 1253.43282pt x 389.20406pt>
 File: Contato CSS 9.png Graphic file (type png)
 <use Contato CSS 9.png>
 Package pdftex.def Info: Contato CSS 9.png  used on input line 67.
@@ -1139,7 +1135,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 67--68
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Contato PHP 1.png, id=244, 1259.4553pt x 383.93437pt>
+<Contato PHP 1.png, id=248, 1259.4553pt x 383.93437pt>
 File: Contato PHP 1.png Graphic file (type png)
 <use Contato PHP 1.png>
 Package pdftex.def Info: Contato PHP 1.png  used on input line 73.
@@ -1152,7 +1148,7 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 73--74
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Contato PHP 2.png, id=245, 1256.44406pt x 307.1475pt>
+<Contato PHP 2.png, id=249, 1256.44406pt x 307.1475pt>
 File: Contato PHP 2.png Graphic file (type png)
 <use Contato PHP 2.png>
 Package pdftex.def Info: Contato PHP 2.png  used on input line 79.
@@ -1165,15 +1161,15 @@ Overfull \hbox (28.45274pt too wide) in paragraph at lines 79--80
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (conclusions.tex [17
+) (conclusions.tex [18
 
- <./Contato HTML 1.png>] [18 <./Contato HTML 2.png> <./Contato CSS 1.png>] [19 
-<./Contato CSS 2.png> <./Contato CSS 3.png>] [20 <./Contato CSS 4.png> <./Conta
-to CSS 5.png>] [21 <./Contato CSS 6.png> <./Contato CSS 7.png>] [22 <./Contato 
+ <./Contato HTML 1.png>] [19 <./Contato HTML 2.png> <./Contato CSS 1.png>] [20 
+<./Contato CSS 2.png> <./Contato CSS 3.png>] [21 <./Contato CSS 4.png> <./Conta
+to CSS 5.png>] [22 <./Contato CSS 6.png> <./Contato CSS 7.png>] [23 <./Contato 
 CSS 8.png> <./Contato CSS 9.png> <./Contato PHP 1.png>]
-[23 <./Contato PHP 2.png>]
+[24 <./Contato PHP 2.png>]
 Chapter 5.
-) (tiny.bbl [24
+) (tiny.bbl [25
 
 ]
 
@@ -1181,20 +1177,20 @@ LaTeX Warning: Empty `thebibliography' environment on input line 4.
 
 ) (appendix.tex) 
 AED: lastpage setting LastPage
-[25
+[26
 
 ] (tiny.aux)
 Package rerunfilecheck Info: File `tiny.out' has not changed.
 (rerunfilecheck)             Checksum: 801A895DA6329A1DE173FA99537F5ADC;2904.
  ) 
 Here is how much of TeX's memory you used:
- 14871 strings out of 478584
- 240575 string characters out of 2843929
- 573594 words of memory out of 3000000
- 32673 multiletter control sequences out of 15000+600000
+ 14882 strings out of 478584
+ 240045 string characters out of 2843929
+ 574723 words of memory out of 3000000
+ 32681 multiletter control sequences out of 15000+600000
  518882 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,77p,751b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,11n,77p,751b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}
 {C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:
 /Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C
@@ -1205,9 +1201,9 @@ C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb>
 ><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.
 pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso1
 2.pfb>
-Output written on tiny.pdf (25 pages, 1892750 bytes).
+Output written on tiny.pdf (26 pages, 1909812 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
- 66 named destinations out of 1000 (max. 500000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
  260 words of extra memory for PDF output out of 10000 (max. 10000000)
 

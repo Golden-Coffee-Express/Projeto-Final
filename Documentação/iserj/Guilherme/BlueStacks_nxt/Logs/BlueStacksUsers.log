@@ -1,0 +1,40 @@
+﻿2022-08-03 22:04:22.966 4904:00000001 (BlueStacksHelper) INFO: IsAdministrator: False
+2022-08-03 22:04:23.109-0300 4904  17544 BRIDGE Helper_bridge I: bridgeApiInitEx:#################### In bridgeApiInit Helper ###############
+2022-08-03 22:04:23.109-0300 4904  17544 BRIDGE Helper_bridge I: Loading configuration ...
+2022-08-03 22:04:23.112-0300 4904  17544 CONF   Helper_bridge E: open failed for D:\BlueStacks_nxt\bluestacks.conf
+2022-08-03 22:04:23.112-0300 4904  17544 BRIDGE Helper_bridge E: Error in confLibInit init
+2022-08-03 22:04:23.111 4904:00000001 (BlueStacksHelper) INFO: BridgeApi inited: -1
+2022-08-03 22:04:23.358 4904:00000001 (BlueStacksHelper) INFO: Sending POST to https://cloud.bluestacks.com//api/scheduledping
+2022-08-03 22:04:24.410 4904:00000001 (BlueStacksHelper) INFO: Cloud response: {"success": false}
+2022-08-03 22:04:24.452 4904:00000001 (BlueStacksHelper) WARNING: Not a valid/false cloud response, exiting
+2022-08-03 22:04:24.452 4904:00000001 (BlueStacksHelper) INFO: Exiting
+2022-08-04 15:05:50.672 17792:00000001 (BlueStacksHelper) INFO: IsAdministrator: False
+2022-08-04 15:05:51.032-0300 17792 19112 BRIDGE Helper_bridge I: bridgeApiInitEx:#################### In bridgeApiInit Helper ###############
+2022-08-04 15:05:51.033-0300 17792 19112 BRIDGE Helper_bridge I: Loading configuration ...
+2022-08-04 15:05:51.035-0300 17792 19112 CONF   Helper_bridge E: open failed for D:\BlueStacks_nxt\bluestacks.conf
+2022-08-04 15:05:51.035-0300 17792 19112 BRIDGE Helper_bridge E: Error in confLibInit init
+2022-08-04 15:05:51.035 17792:00000001 (BlueStacksHelper) INFO: BridgeApi inited: -1
+2022-08-04 15:05:51.862 17792:00000001 (BlueStacksHelper) INFO: Sending POST to https://cloud.bluestacks.com//api/scheduledping
+2022-08-04 15:05:52.985 17792:00000001 (BlueStacksHelper) INFO: Cloud response: {"success": false}
+2022-08-04 15:05:53.034 17792:00000001 (BlueStacksHelper) WARNING: Not a valid/false cloud response, exiting
+2022-08-04 15:05:53.034 17792:00000001 (BlueStacksHelper) INFO: Exiting
+2022-08-04 16:04:22.769 23192:00000001 (BlueStacksHelper) INFO: IsAdministrator: False
+2022-08-04 16:04:22.821-0300 23192 5372  BRIDGE Helper_bridge I: bridgeApiInitEx:#################### In bridgeApiInit Helper ###############
+2022-08-04 16:04:22.821-0300 23192 5372  BRIDGE Helper_bridge I: Loading configuration ...
+2022-08-04 16:04:22.826-0300 23192 5372  CONF   Helper_bridge E: open failed for D:\BlueStacks_nxt\bluestacks.conf
+2022-08-04 16:04:22.826-0300 23192 5372  BRIDGE Helper_bridge E: Error in confLibInit init
+2022-08-04 16:04:22.825 23192:00000001 (BlueStacksHelper) INFO: BridgeApi inited: -1
+2022-08-04 16:04:22.985 23192:00000001 (BlueStacksHelper) INFO: Sending POST to https://cloud.bluestacks.com//api/scheduledping
+2022-08-04 16:04:23.911 23192:00000001 (BlueStacksHelper) INFO: Cloud response: {"success": false}
+2022-08-04 16:04:23.963 23192:00000001 (BlueStacksHelper) WARNING: Not a valid/false cloud response, exiting
+2022-08-04 16:04:23.963 23192:00000001 (BlueStacksHelper) INFO: Exiting
+2022-08-04 22:04:22.979 8136:00000001 (BlueStacksHelper) INFO: IsAdministrator: False
+2022-08-04 22:04:23.150-0300 8136  22344 BRIDGE Helper_bridge I: bridgeApiInitEx:#################### In bridgeApiInit Helper ###############
+2022-08-04 22:04:23.150-0300 8136  22344 BRIDGE Helper_bridge I: Loading configuration ...
+2022-08-04 22:04:23.155-0300 8136  22344 CONF   Helper_bridge E: open failed for D:\BlueStacks_nxt\bluestacks.conf
+2022-08-04 22:04:23.155-0300 8136  22344 BRIDGE Helper_bridge E: Error in confLibInit init
+2022-08-04 22:04:23.155 8136:00000001 (BlueStacksHelper) INFO: BridgeApi inited: -1
+2022-08-04 22:04:23.391 8136:00000001 (BlueStacksHelper) INFO: Sending POST to https://cloud.bluestacks.com//api/scheduledping
+2022-08-04 22:04:24.391 8136:00000001 (BlueStacksHelper) INFO: Cloud response: {"success": false}
+2022-08-04 22:04:24.438 8136:00000001 (BlueStacksHelper) WARNING: Not a valid/false cloud response, exiting
+2022-08-04 22:04:24.438 8136:00000001 (BlueStacksHelper) INFO: Exiting

@@ -579,6 +579,9 @@
 \newcommand{\authorG}{}
 \newcommand{\iserj@authorG}{}
 \renewcommand{\authorG}{\renewcommand{\iserj@authorG}}
+\newcommand{\authorH}{}
+\newcommand{\iserj@authorH}{}
+\renewcommand{\authorH}{\renewcommand{\iserj@authorH}}
 
 \newcommand{\iserj@authorRA}{}
 \newcommand{\authorRA}[1]{\renewcommand{\iserj@authorRA}{#1}}
@@ -594,6 +597,8 @@
 \newcommand{\authorRF}[1]{\renewcommand{\iserj@authorRF}{#1}}
 \newcommand{\iserj@authorRG}{}
 \newcommand{\authorRG}[1]{\renewcommand{\iserj@authorRG}{#1}}
+\newcommand{\iserj@authorRH}{}
+\newcommand{\authorRH}[1]{\renewcommand{\iserj@authorRH}{#1}}
 
 \newcommand{\iserj@advisor}{}
 \newcommand{\iserj@advisorT}{}
@@ -942,6 +947,9 @@
 	\vspace*{.6cm}%
    \par%
 	\iserj@rightmargin{\large \arial \textbf{\iserj@authorG} \normalsize}%  
+	\vspace*{.6cm}%
+   \par%
+	\iserj@rightmargin{\large \arial \textbf{\iserj@authorH} \normalsize}%  
 	\vspace*{\stretch{4}}%
   \par%
   \iserj@rightmargin{\large \arial \textbf{\iserj@thetitle\relax} \normalsize}%
@@ -1095,6 +1103,9 @@
 	\iserj@rightmargin{\arial \textbf{\iserj@authorG}}%
 	\vspace*{\stretch{0.2}}% 
   \par%
+	\iserj@rightmargin{\arial \textbf{\iserj@authorH}}%
+	\vspace*{\stretch{0.2}}% 
+  \par%
   \iserj@leftmargin{\normalfont \iserj@resume}%
   \vspace*{\stretch{2}}%
   \par%
@@ -1104,7 +1115,7 @@
     \hspace{.5mm}%
     \begin{tabular}{|p{0.95\linewidth}|} \hline%
       \noindent \bf{\it{\iserj@authorRA, \iserj@authorRB, \iserj@authorRC, \iserj@authorRD, \iserj@authorRE, \iserj@authorRF, \iserj@authorRG}} \\ \\ \par%
-      \hspace*{.6cm} \iserj@thetitle\relax\ / \iserj@authorA; \iserj@authorB; \iserj@authorC; \iserj@authorD; \iserj@authorE; \iserj@authorF; \iserj@authorG;
+      \hspace*{.6cm} \iserj@thetitle\relax\ / \iserj@authorA; \iserj@authorB; \iserj@authorC; \iserj@authorD; \iserj@authorE; \iserj@authorF; \iserj@authorG; \iserj@authorH;
       %\iserj@advisorlabellc:
       %\iserj@advisor\ifthenelse{\equal{\iserj@coadvisor}{}}{}{;
       %\iserj@coadvisorlabellc
