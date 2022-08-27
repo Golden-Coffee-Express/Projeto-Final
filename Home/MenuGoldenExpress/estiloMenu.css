@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ *{
+     font-family: 'Poppins', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scroll-padding-top: 4rem;
+     scroll-behavior: smooth;
+     list-style: none;
+     text-decoration: none;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    transition:0.6s;
+    padding:30px 65px;
+    z-index:100000;
+    }
+    header.sticky{
+    background:#161513;
+    border-bottom: 2px solid #d4af37;
+    padding:8px 100px;
+    }
+    header .logo{
+    position:relative;
+    font-weight:600;
+    color:#fff;
+    text-decoration:none;
+    font-size:2.3rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    transition:0.6s;
+    }
+    header .logo img{
+        height: 60px;
+        width: 60px;
+        float: left;
+    }
+    header .logo span{
+    color:#d4af37;
+    font-weight:700;
+    padding-left: 14px;
+    }
+    header ul{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    }
+    header ul li{
+    position: relative;
+    list-style:none;
+    }
+    header ul li ul{
+        position:absolute;
+        left:0;
+        top:100%;
+        width:200px;
+        display:none;
+      }
+      
+      header ul li:focus-within > ul, 
+      header ul li:hover > ul{
+        display:initial;
+      }
+      
+      header.sticky ul li ul{
+        background:#161513;
+        transition: 0.6s;
+      }
+      
+      header ul li ul li{
+       width:100%;
+       padding:8px 0;
+      }
+    header ul li a{
+    position:relative;
+    margin:0 15px;
+    text-decoration:none;
+    color:#fff;
+    letter-spacing:2px;
+    font-weight:500;
+    transition:0.6px;
+    font-size:1.37rem;
+    }
+    header ul li a:hover{
+        color:#d4af37;
+        border-bottom: 2px solid #d4af37;
+        transition:all 0.1s ease;
+    }
+    header .Login{
+        color: #fff;
+        padding: 10px 20px;
+        background: transparent;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        transition: 0.6s;
+    }
+    header .Login:hover{
+        background: #fff;
+        color: black;
+        border: px solid #fff;
+        transition: 0.6s;
+    }
+    
+.Menu{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url('/MenuGoldenExpress/img/bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 100px;
+}
+.content{
+    max-width: 800px;
+    text-align: center;
+    padding-top: 80px;
+}
+.content h2{
+    font-size: 64px;
+    font-weight: 400;
+    color: #FFB85C;
+    text-align:center;
+    letter-spacing: 0.1956cm;
+    border-bottom: 3px solid #FFB85C;
+}
+.container{
+    justify-content: center;
+     display: grid;
+     grid-template-columns: repeat(4, minmax(296px, 1rem));
+     gap: 1.7rem;
+     margin-top: 10vh;
+     margin-bottom: 4vh;
+     margin-right: 15px;
+     margin-left: 15px;
+   }
+.container .box{
+     cursor: pointer;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;   
+
+     
+}
+.container .box:hover{
+    transition: ease-in-out 0.1s;
+    border:0.3rem solid gold; 
+}
+.container .box .image{
+flex: 1 1 10rem;
+}
+.container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-position: center;
+
+}
+.container .box .text{
+    background-color:#FA9D4C;
+}
+.container .box .text h4{
+    text-align: center;
+     font-size: 1.2rem;
+     font-weight: 600;
+     text-transform: uppercase;
+     margin-top: 3vh;
+     color: black;
+
+}
+.container .box .text p{   
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: justify;
+    font-size: 1rem;
+    color: black;
+}
+.container .box .text span{
+    align-items: center;
+    color: #50a773;
+    font-weight:600;
+    font-size: 1.4rem;
+}
