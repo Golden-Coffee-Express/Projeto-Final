@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.20)  27 AUG 2022 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.20)  23 SEP 2022 05:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -871,14 +871,13 @@ Package hyperref Warning: Ignoring empty anchor on input line 204.
 
 ]
 Chapter 1.
-[10
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+6.
+(C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [10
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-1.
- (C:\Users\Daniel\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 [11]) (chapter-2.tex [12]
 Chapter 2.
 <DER.jpeg, id=200, 829.0975pt x 382.42876pt>
@@ -1184,15 +1183,15 @@ Package rerunfilecheck Info: File `tiny.out' has not changed.
 (rerunfilecheck)             Checksum: 801A895DA6329A1DE173FA99537F5ADC;2904.
  ) 
 Here is how much of TeX's memory you used:
- 14882 strings out of 478584
- 240045 string characters out of 2843929
+ 14883 strings out of 478584
+ 240068 string characters out of 2843929
  574723 words of memory out of 3000000
- 32681 multiletter control sequences out of 15000+600000
+ 32682 multiletter control sequences out of 15000+600000
  518882 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,77p,751b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}
-{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:
+ 75i,11n,77p,751b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{
+C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:
 /Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C
 :/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C
 :/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><
@@ -1201,7 +1200,7 @@ C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb>
 ><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.
 pfb><C:/Users/Daniel/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso1
 2.pfb>
-Output written on tiny.pdf (26 pages, 1909812 bytes).
+Output written on tiny.pdf (26 pages, 1911724 bytes).
 PDF statistics:
  351 PDF objects out of 1000 (max. 8388607)
  67 named destinations out of 1000 (max. 500000)
